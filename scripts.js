@@ -32,7 +32,7 @@ function vndToUsd() {
     }  if(from == "VND" && to == "KRW"){
         result = amount/usdToVnd * usdToKrw;
     }  if(from == "EUR" && to == "USD"){
-        result = amount/usdToVnd;
+        result = amount/usdToEur;
     }  if(from == "EUR" && to == "KRW"){
         result = amount/usdToEur * usdToKrw;
     }  if(from == "EUR" && to == "VND"){
