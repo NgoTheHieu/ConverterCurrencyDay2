@@ -42,7 +42,7 @@ function vndToUsd() {
     document.getElementById("resultText").innerHTML = `your money from ${from} in ${to} is ${result}`;
     let toResult = formatCurrency(to,result)
     let fromResult = formatCurrency(from,result)
-    document.getElementById("fromResult").innerHTML = amount + (" = ")
+    document.getElementById("fromResult").innerHTML = formatCurrency(from,amount) + (" = ")
     document.getElementById("toResult").innerHTML = toResult
     return result
 } 
